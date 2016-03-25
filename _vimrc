@@ -1,7 +1,7 @@
 "***************************************************
-"   我的 vim設定                
+"   我的 vim設定
 "***************************************************
-"   NeoBundle設定               
+"   NeoBundle設定
 "***************************************************
 if &compatible
   set nocompatible               " Be iMproved
@@ -13,7 +13,7 @@ call neobundle#begin(expand('~/.vim/bundle'))
 
 NeoBundleFetch 'Shougo/neobundle.vim'
 "****************************************************
-"   我要安裝的Bundle                        
+"   我要安裝的Bundle
 "****************************************************
 
 "" basic Bundle
@@ -80,7 +80,7 @@ filetype plugin indent on
 NeoBundleCheck
 
 "************************************************"
-"                       Basic Setup        
+"                       Basic Setup
 "************************************************"
 
 ""
