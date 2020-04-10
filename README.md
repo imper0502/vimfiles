@@ -1,12 +1,12 @@
 # 我的vim設定
 ------
 ## 使用[vim-plug](https://github.com/junegunn/vim-plug)管理套件
- 1. 安裝**Plug**
+ 1. 自行安裝**Plug**
  2. `:edit $MYVIMRC`
  3. 或是`git clone 我的設定檔`，依系統改名
  4. `:PlugInstall`
 
-
+# 注意！用不同分支區分系統，主分支只放說明檔
 ------
 ## branch::windows is for Windows.
 ### **vimrc** for Windows PowerShell/Cmd
@@ -36,10 +36,9 @@
  - 2nd user vimrc file:
 ------
 
- [nerdtree](https://github.com/scrooloose/nerdtree)
-
  [vimcdoc-tw](https://github.com/chusiang/vimcdoc-tw)
 - 目前目前正體中文只有找到7.4版，簡體中文有8.0版
+- 我用 opencc 自行翻譯了一個 8.0 的 [Vim 中文說明手冊](https://github.com/imper0502/vimcdoc-tw)
 
 
 
