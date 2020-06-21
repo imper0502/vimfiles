@@ -1,0 +1,7 @@
+" 設定字體與大小
+" for Windows
+set guifont=Hack:h12	"default: Consolas
+" for Linux
+""set guifont=monospace\ 14
+" for macOS
+""set guifont=Monaco:h16

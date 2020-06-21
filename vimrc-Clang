@@ -1,0 +1,40 @@
+" 設定自動轉碼
+" utf-8 和big5 的檔案互相轉碼，打開時不會變亂碼
+set fileencodings=ucs-bom,utf-8,big5,cp936,gb18030,euc-jp,euc-kr,latin1,default
+
+" 設定UTF-8 格式
+set tenc=utf-8                  " terminal encoding為utf-8
+set encoding=utf-8              " 環境編碼為utf-8
+set fileencoding=utf-8           " 新檔以utf-8存檔
+
+" 設定主題: 黑底白字
+" 設定字體與大小在 _gvimrc
+set ft=c                        " C 語言
+colorscheme slate               "slate fu torte"
+syntax on                       " 開啟程式碼上色
+set t_Co=256                    " 顯示256 色
+set bg=dark                     " 提示背景為暗色系，前景色會增亮
+
+" 其他設定
+set nobackup                    " Do not keep a backup file, use versions instead.
+set ruler                       " 顯示檔案捲軸目前指到百分之幾
+set number                      " 設定行號
+set ic                          " 設定不分大小寫(預設會區分大小寫)
+
+" 游標設定"
+set guicursor+=a:blinkon0       " 游標不閃爍
+set cursorcolumn                " 開啟垂直對正游標
+set cursorline                  " 開啟水平游標強調
+
+" 符號自動補齊
+inoremap ( ()<left>
+inoremap { {}<left>
+inoremap [ []<left>
+inoremap " ""<left>
+
+" 設定縮排
+set ai                          " 開啟自動縮排
+set shiftwidth=4                " 設定縮排寬度
+set tabstop=4 softtabstop=4     " 設定縮排(按下tab時)格數
+set expandtab                   " 將tab展開成為空白
+retab
