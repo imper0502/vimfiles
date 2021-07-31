@@ -78,6 +78,9 @@ let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline#extensions#tabline#buffer_nr_show = 1
 
+" For easymotion
+let g:EasyMotion_smartcase = 1
+
 
 "" 中文設定置底
 source $VIMRUNTIME/delmenu.vim
